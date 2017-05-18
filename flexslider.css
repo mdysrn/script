@@ -63,7 +63,7 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0 0 60px;
+  margin: 0;
   background: #fff;
   border: 4px solid #fff;
   position: relative;
@@ -188,6 +188,7 @@ html[xmlns] .flexslider .slides {
   position: absolute;
   bottom: -40px;
   text-align: center;
+  display: none;
 }
 .flex-control-nav li {
   margin: 0 6px;
